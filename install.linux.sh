@@ -5,7 +5,7 @@ mkdir /tmp/install_tool
 pushd /tmp/install_tool
 
 echo "Install essential tools"
-sudo apt install tmux zsh git curl zip unzip build-essential jq -y
+sudo apt install tmux zsh git curl zip unzip build-essential jq xclip -y
 
 echo "Installing aws cli"
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
